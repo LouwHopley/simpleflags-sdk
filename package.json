@@ -1,9 +1,10 @@
 {
   "name": "simpleflags-io",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A feature flag checking and management library",
-  "main": "dist/simpleflags-io.js",
-  "types": "dist/simpleflags-io.d.ts",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
