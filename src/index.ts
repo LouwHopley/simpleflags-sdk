@@ -42,7 +42,7 @@ if (typeof window !== 'undefined' && window.fetch) {
   };
 }
 
-export default class SimpleFlags {
+class SimpleFlags {
   static baseUrl = 'https://simpleflags.io/api/flag';
 
   static async isEnabled(props: { teamId: string, environmentKey: string, flagKey: string, groupingKey: string }): Promise<boolean> {
@@ -53,3 +53,5 @@ export default class SimpleFlags {
     return data.status === 'enabled';
   }
 }
+
+export default SimpleFlags;
