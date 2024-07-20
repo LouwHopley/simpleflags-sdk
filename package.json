@@ -1,6 +1,6 @@
 {
   "name": "simpleflags-io",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A feature flag checking and management library",
   "main": "dist/simpleflags-io.js",
   "types": "dist/simpleflags-io.d.ts",
@@ -24,6 +24,5 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
-    "node-fetch": "^3.3.2"
   }
 }
