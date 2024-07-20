@@ -1,4 +1,4 @@
-# SimpleFlags SDK
+# SimpleFlags.io
 
 [![npm version](https://img.shields.io/npm/v/simpleflags-io)](https://www.npmjs.com/package/simpleflags-io)
 [![license](https://img.shields.io/npm/l/simpleflags-io)](https://www.npmjs.com/package/simpleflags-io)
