@@ -1,6 +1,6 @@
 {
-  "name": "simpleflags",
-  "version": "1.0.0",
+  "name": "simpleflags-io",
+  "version": "1.0.1",
   "description": "A feature flag checking and management library",
   "main": "dist/simpleflags.js",
   "types": "dist/simpleflags.d.ts",
