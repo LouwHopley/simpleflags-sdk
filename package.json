@@ -1,6 +1,6 @@
 {
   "name": "simpleflags-io",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A feature flag checking and management library",
   "main": "dist/simpleflags.js",
   "types": "dist/simpleflags.d.ts",
@@ -12,13 +12,13 @@
     "type": "git",
     "url": "git+https://github.com/SimpleFlags-io/simpleflags.git"
   },
-  "keywords": ["feature", "flag", "toggle"],
-  "author": "Your Name",
+  "keywords": ["feature", "flag", "toggle", "rollout"],
+  "author": "Louw Hopley",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SimpleFlags-io/simpleflags/issues"
   },
-  "homepage": "https://github.com/SimpleFlags-io/simpleflags#readme",
+  "homepage": "https://simpleflags.io",
   "devDependencies": {
     "@types/node": "^20.14.11",
     "typescript": "^5.5.3"
