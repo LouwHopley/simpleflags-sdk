@@ -1,0 +1,29 @@
+{
+  "name": "simpleflags",
+  "version": "1.0.0",
+  "description": "A feature flag checking and management library",
+  "main": "dist/simpleflags.js",
+  "types": "dist/simpleflags.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimpleFlags-io/simpleflags.git"
+  },
+  "keywords": ["feature", "flag", "toggle"],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SimpleFlags-io/simpleflags/issues"
+  },
+  "homepage": "https://github.com/SimpleFlags-io/simpleflags#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
